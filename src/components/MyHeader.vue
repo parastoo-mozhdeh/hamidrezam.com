@@ -78,15 +78,15 @@ export default {
 
 <style scoped>
 .header {
-  background-image: url('../images/header-background.jpg');
+  background-image: url("../images/header-background.jpg");
 }
 
 .overlay {
-  background-image: url('../images/overlay-bg.png');
+  background-image: url("../images/overlay-bg.png");
 }
 
 .testimonials {
-  background-image: url('../images/testimonials-bg.jpg');
+  background-image: url("../images/testimonials-bg.jpg");
 }
 
 header {
