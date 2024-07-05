@@ -76,11 +76,10 @@ export default {
   computed: {
     headerStyle() {
       return {
-        backgroundImage: `url(${require('../images/header-background.jpg')})`,
+        backgroundImage: `url(${require("../images/header-background.jpg")})`,
       };
     },
   },
-
 };
 </script>
 
