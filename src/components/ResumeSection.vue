@@ -1,9 +1,8 @@
 <template>
- <!-- Resume Section -->
+  <!-- Resume Section -->
 
   <section id="resume">
     <!-- Education -->
-
 
     <div class="row education">
       <div class="three columns header-col">
@@ -57,7 +56,6 @@
     <!-- End Education -->
 
     <!-- Work -->
------------------------------------------------ -->
     <div class="row work">
       <div class="three columns header-col">
         <h1><span>Work</span></h1>
@@ -158,7 +156,6 @@ export default {
 </script>
 
 <style scoped>
-
 #resume {
   background: #fff;
   padding-top: 90px;
@@ -215,5 +212,4 @@ export default {
   font: 15px/24px "opensans-regular", sans-serif;
   margin-top: 6px;
 }
-
 </style>
