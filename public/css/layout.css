@@ -705,21 +705,7 @@ call-to-action .button {
   color: #d8d8d8;
 }
 
-/* ------------------------------------------------------------------
-/* g. Testimonials
-/* ------------------------------------------------------------------ */
-
-#testimonials {
-  background: #1f1f1f url(../images/testimonials-bg.jpg) no-repeat center center;
-  background-size: cover !important;
-  -webkit-background-size: cover !important;
-  background-attachment: fixed;
-
-  position: relative;
-  min-height: 200px;
-  width: 100%;
-  overflow: hidden;
-}
+/* Testimonial background is inside style scope */
 #testimonials .text-container {
   padding-top: 96px;
   padding-bottom: 66px;

@@ -57,4 +57,22 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+/* ------------------------------------------------------------------
+/* g. Testimonials
+/* ------------------------------------------------------------------ */
+
+#testimonials {
+  background: #1f1f1f url("/src/images/testimonials-bg.jpg") no-repeat center
+    center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  background-attachment: fixed;
+
+  position: relative;
+  min-height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+
+</style>
