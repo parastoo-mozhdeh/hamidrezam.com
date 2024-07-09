@@ -10,8 +10,7 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(./src/images/header-background.jpg) no-repeat top
-    center;
+  background: #161415 url("/images/header-background.jpg") no-repeat top center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -523,7 +522,7 @@ ul#nav li.current a {
   -o-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 
-  background: url(./src/images/overlay-bg.png) repeat;
+  background: url("/images/overlay-bg.png") repeat;
 }
 .portfolio-item .item-wrap .link-icon {
   display: block;
@@ -705,7 +704,19 @@ call-to-action .button {
   color: #d8d8d8;
 }
 
-/* Testimonial background is inside style scope */
+/* Testimonials */
+
+#testimonials {
+  background: #1f1f1f url("/images/testimonials-bg.jpg") no-repeat center center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  background-attachment: fixed;
+
+  position: relative;
+  min-height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
 #testimonials .text-container {
   padding-top: 96px;
   padding-bottom: 66px;

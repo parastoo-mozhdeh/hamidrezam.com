@@ -107,8 +107,7 @@
     </div>
     <!-- End Work -->
 
-    <!-- Skills
-      ----------------------------------------------- -->
+    <!-- Skills -->
     <div class="row skill">
       <div class="three columns header-col">
         <h1><span>Skills</span></h1>

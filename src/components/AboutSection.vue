@@ -4,7 +4,11 @@
     <section id="about">
       <div class="row">
         <div class="three columns">
-          <img class="profile-pic" src="../images/profilepic.jpg" alt="" />
+          <img
+            class="profile-pic"
+            src="/images/profilepic.jpg"
+            alt="Profile Picture"
+          />
         </div>
 
         <div class="nine columns main-col">

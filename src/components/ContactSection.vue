@@ -1,6 +1,5 @@
 <template>
-  <!-- Contact Section
-   ================================================== -->
+  <!-- Contact Section -->
   <section id="contact">
     <div class="row section-head">
       <div class="two columns header-col">
@@ -75,7 +74,7 @@
             <div>
               <button class="submit">Submit</button>
               <span id="image-loader">
-                <img alt="" src="../images/loader.gif" />
+                <img alt="" src="/images/loader.gif" />
               </span>
             </div>
           </fieldset>

@@ -10,7 +10,7 @@
           <div class="columns portfolio-item">
             <div class="item-wrap">
               <a href="#modal-01" title="">
-                <img alt="" src="../images/portfolio/coffee.jpg" />
+                <img src="/images/portfolio/coffee.jpg" alt="Coffee" />
                 <div class="overlay">
                   <div class="portfolio-item-meta">
                     <h5>Coffee</h5>
@@ -26,7 +26,7 @@
           <div class="columns portfolio-item">
             <div class="item-wrap">
               <a href="#modal-02" title="">
-                <img alt="" src="../images/portfolio/console.jpg" />
+                <img src="/images/portfolio/console.jpg" alt="Console" />
                 <div class="overlay">
                   <div class="portfolio-item-meta">
                     <h5>Console</h5>
@@ -42,7 +42,7 @@
           <div class="columns portfolio-item">
             <div class="item-wrap">
               <a href="#modal-03" title="">
-                <img alt="" src="../images/portfolio/judah.jpg" />
+                <img src="/images/portfolio/judah.jpg" alt="Judah" />
                 <div class="overlay">
                   <div class="portfolio-item-meta">
                     <h5>Judah</h5>
@@ -57,7 +57,10 @@
           <div class="columns portfolio-item">
             <div class="item-wrap">
               <a href="#modal-04" title="">
-                <img alt="" src="../images/portfolio/into-the-light.jpg" />
+                <img
+                  src="/images/portfolio/into-the-light.jpg"
+                  alt="Into the Light"
+                />
                 <div class="overlay">
                   <div class="portfolio-item-meta">
                     <h5>Into The Light</h5>
@@ -73,7 +76,7 @@
           <div class="columns portfolio-item">
             <div class="item-wrap">
               <a href="#modal-05" title="">
-                <img alt="" src="../images/portfolio/farmerboy.jpg" />
+                <img src="/images/portfolio/farmerboy.jpg" alt="Farmer Boy" />
                 <div class="overlay">
                   <div class="portfolio-item-meta">
                     <h5>Farmer Boy</h5>
@@ -89,7 +92,7 @@
           <div class="columns portfolio-item">
             <div class="item-wrap">
               <a href="#modal-06" title="">
-                <img alt="" src="../images/portfolio/girl.jpg" />
+                <img src="/images/portfolio/girl.jpg" alt="Girl" />
                 <div class="overlay">
                   <div class="portfolio-item-meta">
                     <h5>Girl</h5>
@@ -105,7 +108,7 @@
           <div class="columns portfolio-item">
             <div class="item-wrap">
               <a href="#modal-07" title="">
-                <img alt="" src="../images/portfolio/origami.jpg" />
+                <img src="/images/portfolio/origami.jpg" alt="Origami" />
                 <div class="overlay">
                   <div class="portfolio-item-meta">
                     <h5>Origami</h5>
@@ -121,7 +124,7 @@
           <div class="columns portfolio-item">
             <div class="item-wrap">
               <a href="#modal-08" title="">
-                <img alt="" src="../images/portfolio/retrocam.jpg" />
+                <img src="/images/portfolio/retrocam.jpg" alt="Retro Cam" />
                 <div class="overlay">
                   <div class="portfolio-item-meta">
                     <h5>Retrocam</h5>
@@ -143,8 +146,8 @@
       <div id="modal-01" class="popup-modal mfp-hide">
         <img
           class="scale-with-grid"
-          src="../images/portfolio/modals/m-coffee.jpg"
-          alt=""
+          src="/images/portfolio/modals/m-coffee.jpg"
+          alt="Modal Coffee"
         />
 
         <div class="description-box">
@@ -169,8 +172,8 @@
       <div id="modal-02" class="popup-modal mfp-hide">
         <img
           class="scale-with-grid"
-          src="../images/portfolio/modals/m-console.jpg"
-          alt=""
+          src="/images/portfolio/modals/m-judah.jpg"
+          alt="Modal Judah"
         />
 
         <div class="description-box">
@@ -195,8 +198,8 @@
       <div id="modal-03" class="popup-modal mfp-hide">
         <img
           class="scale-with-grid"
-          src="../images/portfolio/modals/m-judah.jpg"
-          alt=""
+          src="/images/portfolio/modals/m-judah.jpg"
+          alt="Modal Judah"
         />
 
         <div class="description-box">
@@ -219,8 +222,8 @@
       <div id="modal-04" class="popup-modal mfp-hide">
         <img
           class="scale-with-grid"
-          src="../images/portfolio/modals/m-intothelight.jpg"
-          alt=""
+          src="/images/portfolio/modals/m-intothelight.jpg"
+          alt="Modal Into the Light"
         />
 
         <div class="description-box">
@@ -243,8 +246,8 @@
       <div id="modal-05" class="popup-modal mfp-hide">
         <img
           class="scale-with-grid"
-          src="../images/portfolio/modals/m-farmerboy.jpg"
-          alt=""
+          src="/images/portfolio/modals/m-farmerboy.jpg"
+          alt="Modal Farmer Boy"
         />
 
         <div class="description-box">
@@ -269,8 +272,8 @@
       <div id="modal-06" class="popup-modal mfp-hide">
         <img
           class="scale-with-grid"
-          src="../images/portfolio/modals/m-girl.jpg"
-          alt=""
+          src="/images/portfolio/modals/m-girl.jpg"
+          alt="Modal Girl"
         />
 
         <div class="description-box">
@@ -293,8 +296,8 @@
       <div id="modal-07" class="popup-modal mfp-hide">
         <img
           class="scale-with-grid"
-          src="../images/portfolio/modals/m-origami.jpg"
-          alt=""
+          src="/images/portfolio/modals/m-origami.jpg"
+          alt="Modal Origami"
         />
 
         <div class="description-box">
@@ -319,8 +322,8 @@
       <div id="modal-08" class="popup-modal mfp-hide">
         <img
           class="scale-with-grid"
-          src="../images/portfolio/modals/m-retrocam.jpg"
-          alt=""
+          src="/images/portfolio/modals/m-retrocam.jpg"
+          alt="Modal Retro Cam"
         />
 
         <div class="description-box">

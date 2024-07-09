@@ -53,7 +53,7 @@
 
 <script>
 export default {
-  name: "ComponentName", // The name of your component
+  name: "FooterSection", // The name of your component
   data() {
     return {
       // Data properties for your component

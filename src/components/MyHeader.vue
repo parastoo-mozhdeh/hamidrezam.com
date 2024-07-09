@@ -1,5 +1,6 @@
 <template>
-  <header id="home" :style="headerStyle">
+  <header id="home">
+    <img src="/images/header-background.jpg" alt="Header Background" />
     <nav id="nav-wrap">
       <a class="mobile-btn" href="#nav-wrap" title="Show navigation"
         >Show navigation</a
@@ -72,13 +73,6 @@ export default {
       introduction:
         "I am a full-stack developer. Let s go to the next step to know me more.",
     };
-  },
-  computed: {
-    headerStyle() {
-      return {
-        backgroundImage: `url(${require("../images/header-background.jpg")})`,
-      };
-    },
   },
 };
 </script>
