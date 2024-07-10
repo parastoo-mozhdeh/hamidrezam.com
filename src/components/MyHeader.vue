@@ -1,6 +1,6 @@
 <template>
   <header id="home">
-    <img src="/images/header-background.jpg" alt="Header Background" />
+    <img src="/css/images/header-background.jpg" alt="" />
     <nav id="nav-wrap">
       <a class="mobile-btn" href="#nav-wrap" title="Show navigation"
         >Show navigation</a
