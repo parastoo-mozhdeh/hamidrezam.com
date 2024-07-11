@@ -4,7 +4,11 @@
     <section id="about">
       <div class="row">
         <div class="three columns">
-          <img class="profile-pic" src="../images/profilepic.jpg" alt="" />
+          <img
+            class="profile-pic"
+            src="/images/profilepic.jpg"
+            alt="Profile Picture"
+          />
         </div>
 
         <div class="nine columns main-col">
@@ -56,65 +60,20 @@
 
 <script>
 export default {
-  name: "AboutSection", 
+  name: "AboutSection",
   data() {
     return {
       // Data properties
     };
   },
   methods: {
-    // Methods 
+    // Methods
   },
   computed: {
-    // Computed properties 
+    // Computed properties
   },
   //  props, watch, etc.
 };
 </script>
 
-<style scoped>
-#about {
-   background: #2B2B2B;
-   padding-top: 96px;
-   padding-bottom: 66px;
-   overflow: hidden;
-}
-
-#about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
-
-#about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
-   margin-bottom: 12px;
-}
-#about p {
-   line-height: 30px;
-   color: #7A7A7A;
-}
-#about .profile-pic {
-   position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 100%;
-}
-#about .contact-details { width: 41.66667%; }
-#about .download {
-   width: 58.33333%;
-   padding-top: 6px;
-}
-#about .main-col { padding-right: 5%; }
-#about .download .button {
-   margin-top: 6px;
-   background: #444;
-}
-#about .download .button:hover {
-   background: #fff;
-   color: #2B2B2B;
-}
-#about .download .button i {
-   margin-right: 15px;
-   font-size: 20px;
-}
-
-</style>
+<style scoped></style>

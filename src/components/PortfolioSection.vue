@@ -10,7 +10,7 @@
           <div class="columns portfolio-item">
             <div class="item-wrap">
               <a href="#modal-01" title="">
-                <img alt="" src="../images/portfolio/coffee.jpg" />
+                <img src="/images/portfolio/coffee.jpg" alt="Coffee" />
                 <div class="overlay">
                   <div class="portfolio-item-meta">
                     <h5>Coffee</h5>
@@ -26,7 +26,7 @@
           <div class="columns portfolio-item">
             <div class="item-wrap">
               <a href="#modal-02" title="">
-                <img alt="" src="../images/portfolio/console.jpg" />
+                <img src="/images/portfolio/console.jpg" alt="Console" />
                 <div class="overlay">
                   <div class="portfolio-item-meta">
                     <h5>Console</h5>
@@ -42,7 +42,7 @@
           <div class="columns portfolio-item">
             <div class="item-wrap">
               <a href="#modal-03" title="">
-                <img alt="" src="../images/portfolio/judah.jpg" />
+                <img src="/images/portfolio/judah.jpg" alt="Judah" />
                 <div class="overlay">
                   <div class="portfolio-item-meta">
                     <h5>Judah</h5>
@@ -57,10 +57,13 @@
           <div class="columns portfolio-item">
             <div class="item-wrap">
               <a href="#modal-04" title="">
-                <img alt="" src="../images/portfolio/into-the-light.jpg" />
+                <img
+                  src="/images/portfolio/into-the-light.jpg"
+                  alt="Into the Light"
+                />
                 <div class="overlay">
                   <div class="portfolio-item-meta">
-                    <h5>Into The Light</h5>   
+                    <h5>Into The Light</h5>
                     <p>Photography</p>
                   </div>
                 </div>
@@ -73,7 +76,7 @@
           <div class="columns portfolio-item">
             <div class="item-wrap">
               <a href="#modal-05" title="">
-                <img alt="" src="../images/portfolio/farmerboy.jpg" />
+                <img src="/images/portfolio/farmerboy.jpg" alt="Farmer Boy" />
                 <div class="overlay">
                   <div class="portfolio-item-meta">
                     <h5>Farmer Boy</h5>
@@ -89,7 +92,7 @@
           <div class="columns portfolio-item">
             <div class="item-wrap">
               <a href="#modal-06" title="">
-                <img alt="" src="../images/portfolio/girl.jpg" />
+                <img src="/images/portfolio/girl.jpg" alt="Girl" />
                 <div class="overlay">
                   <div class="portfolio-item-meta">
                     <h5>Girl</h5>
@@ -105,7 +108,7 @@
           <div class="columns portfolio-item">
             <div class="item-wrap">
               <a href="#modal-07" title="">
-                <img alt="" src="../images/portfolio/origami.jpg" />
+                <img src="/images/portfolio/origami.jpg" alt="Origami" />
                 <div class="overlay">
                   <div class="portfolio-item-meta">
                     <h5>Origami</h5>
@@ -121,7 +124,7 @@
           <div class="columns portfolio-item">
             <div class="item-wrap">
               <a href="#modal-08" title="">
-                <img alt="" src="../images/portfolio/retrocam.jpg" />
+                <img src="/images/portfolio/retrocam.jpg" alt="Retro Cam" />
                 <div class="overlay">
                   <div class="portfolio-item-meta">
                     <h5>Retrocam</h5>
@@ -139,13 +142,12 @@
       <!-- twelve columns end -->
 
       <!-- Modal Popup -->
- 
 
       <div id="modal-01" class="popup-modal mfp-hide">
         <img
           class="scale-with-grid"
-          src="../images/portfolio/modals/m-coffee.jpg"
-          alt=""
+          src="/images/portfolio/modals/m-coffee.jpg"
+          alt="Modal Coffee"
         />
 
         <div class="description-box">
@@ -170,8 +172,8 @@
       <div id="modal-02" class="popup-modal mfp-hide">
         <img
           class="scale-with-grid"
-          src="../images/portfolio/modals/m-console.jpg"
-          alt=""
+          src="/images/portfolio/modals/m-judah.jpg"
+          alt="Modal Judah"
         />
 
         <div class="description-box">
@@ -196,8 +198,8 @@
       <div id="modal-03" class="popup-modal mfp-hide">
         <img
           class="scale-with-grid"
-          src="../images/portfolio/modals/m-judah.jpg"
-          alt=""
+          src="/images/portfolio/modals/m-judah.jpg"
+          alt="Modal Judah"
         />
 
         <div class="description-box">
@@ -220,8 +222,8 @@
       <div id="modal-04" class="popup-modal mfp-hide">
         <img
           class="scale-with-grid"
-          src="../images/portfolio/modals/m-intothelight.jpg"
-          alt=""
+          src="/images/portfolio/modals/m-intothelight.jpg"
+          alt="Modal Into the Light"
         />
 
         <div class="description-box">
@@ -244,8 +246,8 @@
       <div id="modal-05" class="popup-modal mfp-hide">
         <img
           class="scale-with-grid"
-          src="../images/portfolio/modals/m-farmerboy.jpg"
-          alt=""
+          src="/images/portfolio/modals/m-farmerboy.jpg"
+          alt="Modal Farmer Boy"
         />
 
         <div class="description-box">
@@ -270,8 +272,8 @@
       <div id="modal-06" class="popup-modal mfp-hide">
         <img
           class="scale-with-grid"
-          src="../images/portfolio/modals/m-girl.jpg"
-          alt=""
+          src="/images/portfolio/modals/m-girl.jpg"
+          alt="Modal Girl"
         />
 
         <div class="description-box">
@@ -294,8 +296,8 @@
       <div id="modal-07" class="popup-modal mfp-hide">
         <img
           class="scale-with-grid"
-          src="../images/portfolio/modals/m-origami.jpg"
-          alt=""
+          src="/images/portfolio/modals/m-origami.jpg"
+          alt="Modal Origami"
         />
 
         <div class="description-box">
@@ -320,8 +322,8 @@
       <div id="modal-08" class="popup-modal mfp-hide">
         <img
           class="scale-with-grid"
-          src="../images/portfolio/modals/m-retrocam.jpg"
-          alt=""
+          src="/images/portfolio/modals/m-retrocam.jpg"
+          alt="Modal Retro Cam"
         />
 
         <div class="description-box">
@@ -374,182 +376,4 @@ export default {
 };
 </script>
 
-<style scoped>
-
-/* Portfolio Section */
-
-#portfolio {
-  background: #ebeeee;
-  padding-top: 90px;
-  padding-bottom: 60px;
-}
-#portfolio h1 {
-  font: 15px/24px "opensans-semibold", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-align: center;
-  margin-bottom: 48px;
-  color: #95a3a3;
-}
-
-/* Portfolio Content */
-#portfolio-wrapper .columns {
-  margin-bottom: 36px;
-}
-.portfolio-item .item-wrap {
-  background: #fff;
-  overflow: hidden;
-  position: relative;
-
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-.portfolio-item .item-wrap a {
-  display: block;
-  cursor: pointer;
-}
-
-/* overlay */
-.portfolio-item .item-wrap .overlay {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-
-  opacity: 0;
-  -moz-opacity: 0;
-  filter: alpha(opacity=0);
-
-  -webkit-transition: opacity 0.3s ease-in-out;
-  -moz-transition: opacity 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out;
-
-  background: url(../images/overlay-bg.png) repeat;
-}
-.portfolio-item .item-wrap .link-icon {
-  display: block;
-  color: #fff;
-  height: 30px;
-  width: 30px;
-  font-size: 18px;
-  line-height: 30px;
-  text-align: center;
-
-  opacity: 0;
-  -moz-opacity: 0;
-  filter: alpha(opacity=0);
-
-  -webkit-transition: opacity 0.3s ease-in-out;
-  -moz-transition: opacity 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -15px;
-  margin-top: -15px;
-}
-.portfolio-item .item-wrap img {
-  vertical-align: bottom;
-}
-.portfolio-item .portfolio-item-meta {
-  padding: 18px;
-}
-.portfolio-item .portfolio-item-meta h5 {
-  font: 14px/21px "opensans-bold", sans-serif;
-  color: #fff;
-}
-.portfolio-item .portfolio-item-meta p {
-  font: 12px/18px "opensans-light", sans-serif;
-  color: #c6c7c7;
-  margin-bottom: 0;
-}
-
-/* on hover */
-.portfolio-item:hover .overlay {
-  opacity: 1;
-  -moz-opacity: 1;
-  filter: alpha(opacity=100);
-}
-.portfolio-item:hover .link-icon {
-  opacity: 1;
-  -moz-opacity: 1;
-  filter: alpha(opacity=100);
-}
-
-/* popup modal */
-.popup-modal {
-  max-width: 550px;
-  background: #fff;
-  position: relative;
-  margin: 0 auto;
-}
-.popup-modal .description-box {
-  padding: 12px 36px 18px 36px;
-}
-.popup-modal .description-box h4 {
-  font: 15px/24px "opensans-bold", sans-serif;
-  margin-bottom: 12px;
-  color: #111;
-}
-.popup-modal .description-box p {
-  font: 14px/24px "opensans-regular", sans-serif;
-  color: #a1a1a1;
-  margin-bottom: 12px;
-}
-.popup-modal .description-box .categories {
-  font: 11px/21px "opensans-light", sans-serif;
-  color: #a1a1a1;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  display: block;
-  text-align: left;
-}
-.popup-modal .description-box .categories i {
-  margin-right: 8px;
-}
-.popup-modal .link-box {
-  padding: 18px 36px;
-  background: #111;
-  text-align: left;
-}
-.popup-modal .link-box a {
-  color: #fff;
-  font: 11px/21px "opensans-bold", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  cursor: pointer;
-}
-.popup-modal a:hover {
-  color: #00cccc;
-}
-.popup-modal a.popup-modal-dismiss {
-  margin-left: 24px;
-}
-
-/* fadeout effect for modal popup */
-
-/* content at start */
-.mfp-fade.mfp-wrap .mfp-content .popup-modal {
-  opacity: 0;
-  -webkit-transition: all 200ms ease-in-out;
-  -moz-transition: all 200ms ease-in-out;
-  -o-transition: all 200ms ease-in-out;
-  -ms-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out;
-}
-/* content fadein */
-.mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
-  opacity: 1;
-}
-/* content fadeout */
-.mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
-  opacity: 0;
-}
-</style>
+<style scoped></style>
