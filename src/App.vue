@@ -2,6 +2,7 @@
   <div id="app">
     <MyHeader />
     <AboutSection />
+    <MyComponent />
     <ResumeSection />
     <PortfolioSection />
     <ActionSection />
@@ -14,6 +15,7 @@
 <script>
 import MyHeader from "./components/MyHeader.vue";
 import AboutSection from "./components/AboutSection.vue";
+import MyComponent from "./components/MyComponent.vue";
 import ResumeSection from "./components/ResumeSection.vue";
 import PortfolioSection from "./components/PortfolioSection.vue";
 import ActionSection from "./components/ActionSection.vue";
@@ -26,6 +28,7 @@ export default {
   components: {
     MyHeader,
     AboutSection,
+    MyComponent,
     ResumeSection,
     PortfolioSection,
     ActionSection,
