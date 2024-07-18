@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <MyHeader />
+    <MyHeader :title="title" :subtitle="subtitle" :socials="socials"/>
     <AboutSection :aboutMe="aboutMe"/>
-    <MyComponent :users="socials" />
+    <!-- <MyComponent/> -->
     <ResumeSection />
     <PortfolioSection />
     <ActionSection />
@@ -21,7 +21,7 @@ import ActionSection from "./components/ActionSection.vue";
 import TestimonialsSection from "./components/TestimonialsSection.vue";
 import ContactSection from "./components/ContactSection.vue";
 import FooterSection from "./components/FooterSection.vue";
-import MyComponent from "./components/MyComponent.vue";
+// import MyComponent from "./components/MyComponent.vue";
 import AxiosInstance from './axiosConfig';
 
 export default {
@@ -35,7 +35,7 @@ export default {
     TestimonialsSection,
     ContactSection,
     FooterSection,
-    MyComponent,
+    // MyComponent,
   },
   data() {
     return {
