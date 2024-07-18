@@ -1,4 +1,43 @@
-[
-    { "id": 1, "name": "HamidReza", "email": "hamidreza87m@gmail.com" },
-    { "id": 2, "name": "HamidReza", "email": "hamidreza87m@gmail.com" }
-  ]
+{
+  "title": "Hamidreza Mozhdeh",
+  "subtitle": "I'm a Web Engineer",
+  "socials": [
+    {
+      "title": "Linkedin",
+      "icon": "linkedin-icon",
+      "url": "https://aaaa.aaaa"
+    },
+    {
+      "title": "Linkedin2",
+      "icon": "linkedin-icon",
+      "url": "https://aaaa.aaaa"
+    },
+    {
+      "title": "Linkedin3",
+      "icon": "linkedin-icon",
+      "url": "https://aaaa.aaaa"
+    }
+  ],
+  "about-me": {
+    "text": "I am felan felan",
+    "resume": {
+      "icon": "icon-name",
+      "label": "Download",
+      "path": "https://sssss"
+    },
+    "contact": {
+      "addresses": [
+        "aaaaaaa",
+        "bbbbbbb"
+      ],
+      "phones": [
+        "11111",
+        "22222"
+      ],
+      "emails": [
+        "11111",
+        "22222"
+      ]
+    }
+  }
+}
