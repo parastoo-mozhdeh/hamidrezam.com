@@ -13,6 +13,6 @@ module.exports = {
   },
 
   configureWebpack: {
-    // Your webpack configuration
+    // webpack configuration
   },
 };
