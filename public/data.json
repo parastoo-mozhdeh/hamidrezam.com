@@ -3,19 +3,34 @@
   "subtitle": "I'm a Web Engineer",
   "socials": [
     {
-      "title": "Linkedin",
-      "icon": "linkedin-icon",
-      "url": "https://aaaa.aaaa"
+      "title": "Facebook",
+      "url": "https://facebook.com",
+      "icon": "fa fa-facebook"
     },
     {
-      "title": "Linkedin2",
-      "icon": "linkedin-icon",
-      "url": "https://aaaa.aaaa"
+      "title": "Twitter",
+      "url": "https://twitter.com",
+      "icon": "fa fa-twitter"
     },
     {
-      "title": "Linkedin3",
-      "icon": "linkedin-icon",
-      "url": "https://aaaa.aaaa"
+      "title": "Google Plus",
+      "url": "https://plus.google.com",
+      "icon": "fa fa-google-plus"
+    },
+    {
+      "title": "LinkedIn",
+      "url": "https://linkedin.com",
+      "icon": "fa fa-linkedin"
+    },
+    {
+      "title": "Instagram",
+      "url": "https://instagram.com",
+      "icon": "fa fa-instagram"
+    },
+    {
+      "title": "Skype",
+      "url": "https://skype.com",
+      "icon": "fa fa-skype"
     }
   ],
   "about-me": {

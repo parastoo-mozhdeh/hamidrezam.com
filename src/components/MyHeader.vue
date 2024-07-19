@@ -57,7 +57,7 @@ export default {
     },
   },
   mounted() {
-    console.log(this.socials); // Debug the data
+    console.log(this.socials);
   },
 };
 </script>
