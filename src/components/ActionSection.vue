@@ -26,18 +26,6 @@
 <script>
 export default {
   name: "ActionSection",
-  data() {
-    return {
-      // Data
-    };
-  },
-  methods: {
-    // Methods
-  },
-  computed: {
-    // Computed properties
-  },
-  // props, watch, etc.
 };
 </script>
 

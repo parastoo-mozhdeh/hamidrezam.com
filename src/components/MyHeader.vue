@@ -26,7 +26,8 @@
         <hr />
         <ul class="social">
           <li v-for="social in socials" :key="social.title">
-            <a :href="social.url"><i :class="social.icon"></i></a>
+            <a :href="social.url">
+              <i :class="social.icon"></i> {{ social.title }} </a>
           </li>
         </ul>
       </div>

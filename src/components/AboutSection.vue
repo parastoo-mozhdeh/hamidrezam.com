@@ -18,13 +18,15 @@
             {{ aboutMe.text }}
           </p>
 
-          <div class="row">
+          <div class="row" v-if="aboutMe.contact">
             <div class="columns contact-details">
               <h2>Contact Details</h2>
               <p class="address">
-                <span>{{ aboutMe.contact.addresses[0] }}</span
+                <span
+                  v-for="(address, index) in aboutMe.contact.addresses"
+                  :key="index"
+                  >{{ address }}</span
                 ><br />
-                <span>{{ aboutMe.contact.addresses[1] }} </span><br />
                 <span>{{ aboutMe.contact.phones[0] }}</span
                 ><br />
                 <span>{{ aboutMe.contact.emails[0] }}</span>
@@ -40,6 +42,11 @@
             </div>
           </div>
           <!-- end row -->
+
+          <div v-else>
+            <p>Loading...</p>
+          </div>
+          
         </div>
         <!-- end .main-col -->
       </div>

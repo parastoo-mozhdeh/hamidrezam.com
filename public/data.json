@@ -1,58 +1,49 @@
 {
   "title": "Hamidreza Mozhdeh",
-  "subtitle": "I'm a Web Engineer",
+  "subtitle": "I'm a Web Engineer.Let's go to the next part to get to know each other more. ",
   "socials": [
     {
-      "title": "Facebook",
+      "title": "",
       "url": "https://facebook.com",
       "icon": "fa fa-facebook"
     },
     {
-      "title": "Twitter",
+      "title": "",
       "url": "https://twitter.com",
       "icon": "fa fa-twitter"
     },
     {
-      "title": "Google Plus",
+      "title": "",
       "url": "https://plus.google.com",
       "icon": "fa fa-google-plus"
     },
     {
-      "title": "LinkedIn",
+      "title": "",
       "url": "https://linkedin.com",
       "icon": "fa fa-linkedin"
     },
     {
-      "title": "Instagram",
+      "title": "",
       "url": "https://instagram.com",
       "icon": "fa fa-instagram"
     },
     {
-      "title": "Skype",
+      "title": "",
       "url": "https://skype.com",
       "icon": "fa fa-skype"
     }
   ],
   "about-me": {
-    "text": "I am felan felan",
+    "text": "My name is Hamidreza Mozhdeh, born on 27 Mehr 1366, since I was a curious child, I loved analysis and abstractions, I saw almost everything as a system and I had to know how it works. My exploration and curiosities have become the foundation of my skills and activities today. Imagining the components of a system that work beautifully together, meeting the needs and solving the problems and challenges of each system is one of the abilities that I have gained through these years of experience. I entered the field of web design and programming since 2004, and I got my first experience by designing a website for the Xowan band, and I am still working in this field and I am trying to become an influential person in this field by increasing the depth of my skills. Be the field Having a better experience of life for myself and others is one of my goals in this field.",
     "resume": {
       "icon": "icon-name",
-      "label": "Download",
-      "path": "https://sssss"
+      "label": "Download Resume",
+      "path": "/path/to/resume.pdf"
     },
     "contact": {
-      "addresses": [
-        "aaaaaaa",
-        "bbbbbbb"
-      ],
-      "phones": [
-        "11111",
-        "22222"
-      ],
-      "emails": [
-        "11111",
-        "22222"
-      ]
+      "addresses": ["aaaaaaa", "bbbbbbb"],
+      "phones": ["(+98) 911-233-5989", "2226347"],
+      "emails": ["hamidreza87m@gmail.com"]
     }
   }
 }
