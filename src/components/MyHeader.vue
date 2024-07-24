@@ -21,37 +21,13 @@
 
     <div class="row banner">
       <div class="banner-text">
-        <h1 class="responsive-headline">I'm Jonathan Doe.</h1>
-        <h3>
-          I'm a Manila based <span>graphic designer</span>,
-          <span>illustrator</span> and <span>webdesigner</span> creating awesome
-          and effective visual identities for companies of all sizes around the
-          globe. Let's
-          <a class="smoothscroll" href="#about">start scrolling</a> and learn
-          more <a class="smoothscroll" href="#about">about me</a>.
-        </h3>
+        <h1 class="responsive-headline">{{ title }}</h1>
+        <h3>{{ subtitle }}</h3>
         <hr />
         <ul class="social">
-          <li>
-            <a href="#"><i class="fa fa-facebook"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-google-plus"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-instagram"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-dribbble"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-skype"></i></a>
+          <li v-for="social in socials" :key="social.title">
+            <a :href="social.url">
+              <i :class="social.icon"></i> {{ social.title }} </a>
           </li>
         </ul>
       </div>
@@ -67,12 +43,22 @@
 <script>
 export default {
   name: "MyHeader",
-  data() {
-    return {
-      name: "Hamidreza Mozhdeh",
-      introduction:
-        "I am a full-stack developer. Let s go to the next step to know me more.",
-    };
+  props: {
+    title: {
+      type: String,
+      required: true,
+    },
+    subtitle: {
+      type: String,
+      required: true,
+    },
+    socials: {
+      type: Array,
+      required: true,
+    },
+  },
+  mounted() {
+    console.log(this.socials);
   },
 };
 </script>
