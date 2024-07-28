@@ -39,7 +39,13 @@ export default {
       title: "",
       subtitle: "",
       socials: [],
-      aboutMe: {},
+      aboutMe: {
+        contact: {
+          addresses: [],
+          phones: [],
+          emails: []
+      }
+    }
     };
   },
   created() {

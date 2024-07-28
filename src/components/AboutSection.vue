@@ -23,13 +23,17 @@
               <h2>Contact Details</h2>
               <p class="address">
                 <span
-                  v-for="(address, index) in aboutMe.contact.addresses"
-                  :key="index"
+                  v-for="address in aboutMe.contact.addresses"
+                  :key="address"
                   >{{ address }}</span
                 ><br />
-                <span>{{ aboutMe.contact.phones[0] }}</span
+                <span v-for="phone in aboutMe.contact.phones" :key="phone">{{
+                  phone
+                }}</span
                 ><br />
-                <span>{{ aboutMe.contact.emails[0] }}</span>
+                <span v-for="email in aboutMe.contact.emails" :key="email">{{
+                  email
+                }}</span>
               </p>
             </div>
 
@@ -46,7 +50,6 @@
           <div v-else>
             <p>Loading...</p>
           </div>
-          
         </div>
         <!-- end .main-col -->
       </div>
